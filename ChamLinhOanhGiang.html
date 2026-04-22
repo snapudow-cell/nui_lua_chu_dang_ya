@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Chư Đăng Ya - Gia Lai</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#eef5f1;
+}
+
+/* ===== HEADER ===== */
+header{
+    background-image:url("banner.jpg");
+    background-size:cover;
+    background-position:center;
+    color:brown;
+    padding:70px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:42px;
+    text-shadow:2px 2px 6px black;
+}
+
+/* ===== MENU ===== */
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    background:rgba(27,94,32,0.95);
+    box-shadow:0 4px 10px rgba(0,0,0,0.4);
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+}
+
+nav ul li{
+    padding:15px 25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+}
+
+/* 🔥 HIỆU ỨNG KHI RÊ CHUỘT */
+nav ul li a:hover{
+    font-weight:bold;
+    text-decoration:underline;
+    color:#ffeb3b;
+}
+
+/* ===== NỘI DUNG ===== */
+.main{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:40px;
+    margin-top:-40px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    animation:fadeIn 1.5s;
+}
+
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(40px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+.main img{
+    width:100%;
+    border-radius:15px;
+    margin-top:20px;
+    transition:0.4s;
+}
+
+.main img:hover{
+    transform:scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>NÚI LỬA CHƯ ĐĂNG YA</h1>
+    <p>Viên ngọc xanh của đại ngàn Tây Nguyên</p>
+</header>
+
+<nav>
+<ul>
+    <li><a href="gioithieu1.html">Giới thiệu</a></li>
+    <li><a href="nguongoc1.html">Nguồn gốc</a></li>
+    <li><a href="dulich1.html">Du lịch</a></li>
+    <li><a href="lienhe1.html">Liên Hệ</a></li>
+</ul>
+</nav>
+
+<div class="main">
+    <h2>Chào mừng bạn đến với Chư Đăng Ya</h2>
+    <p>
+        Chư Đăng Ya là một ngọn núi lửa cổ thuộc tỉnh Gia Lai,
+        nổi bật với vẻ đẹp hoang sơ, đất đỏ bazan màu mỡ
+        và cảnh quan thiên nhiên hùng vĩ.
+    </p>
+
+    <img src="nuilua.jpg">
+	
+</div>
+
+<footer>
+    <p>Trang web Tin học 12 – Thiết kế HTML & CSS</p>
+</footer>
+
+</body>
+</html>
